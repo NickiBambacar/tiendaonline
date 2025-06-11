@@ -1,0 +1,90 @@
+/* Fuente base */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Tarjetas de productos */
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  object-fit: contain;
+  height: 200px;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #198754; /* verde Bootstrap */
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: white;
+  border-bottom: 5px solid #0d6efd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Carrito */
+#carrito-lista {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+  background-color: #e9ecef;
+  font-size: 0.95rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
